@@ -201,7 +201,7 @@ from presc.evaluations.spatial_distribution import SpatialDistribution
 
 esd = SpatialDistribution(cm, test_dataset, train_dataset)
 # Plot the results
-ecm.display()
+esd.display()
 ```
 
 Computation can be accessed using `esd.compute()`. This returns a
@@ -280,7 +280,7 @@ from presc.evaluations.train_test_splits import TrainTestSplits
 
 etts = TrainTestSplits(cm, train_dataset)
 # Plot the results
-ecm.display()
+etts.display()
 ```
 
 The given training set is split into train and test parts using a split
